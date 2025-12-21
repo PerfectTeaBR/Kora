@@ -20,6 +20,6 @@ client = logging.Kora(clientLogging)
 
 client.logging.initialize(
     # Inicia a SDK
-    clientLogging = clientStatus
+    clientLogging = logging
 )
 ```
