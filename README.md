@@ -23,3 +23,8 @@ client.logging.initialize(
     clientLogging = logging
 )
 ```
+Na Kora, existe o **Client Backend e o Client Frontend**, então temos as documentações sobre como iniciar :D
+
+---
+ - [Client Backend](/client-backend/README.md)
+ - [Client Frontend](/client-frontend/README.md)
