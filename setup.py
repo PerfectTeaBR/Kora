@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="kora",
+    name="koralogging",
     version="1.0.0",
-    description="Uma SDK Python para fazer o logging(registro) de Clients",
+    description="Uma SDK Python para fazer logging de um jeito simples!",
     author="umastrodev12",
     packages=find_packages(),
     python_requires=">3.8",

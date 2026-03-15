@@ -14,17 +14,12 @@ pip install koralogging
 ## 🌟 Iniciando
 ### Iniciando a SDK
 ```python
-from koralogging import Kora, logging, clientLogging, clientStatus
+import koralogging
+import logging
 
-client = logging.Kora(clientLogging)
+client = logging()
 
-client.logging.initialize(
-    # Inicia a SDK
-    clientLogging = logging
-)
+
+client.start() # Inicia a Kora
 ```
-Na Kora, existe o **Client Backend e o Client Frontend**, então temos as documentações sobre como iniciar :D
 
----
- - [Client Backend](/client-backend/README.md)
- - [Client Frontend](/client-frontend/README.md)
