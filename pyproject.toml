@@ -1,3 +1,9 @@
-[build-system]
-requires = ["setuptools>=42", "wheel"]
-build-backend = "setuptools.build.meta"
+[project]
+name = "koralogging"
+version = "0.1.0"
+description = "A high-performance logging SDK for microservices."
+readme = "README.md"
+authors = [{name = "PerfectTeaBR"}]
+dependencies = [
+    "asyncio"   
+]
